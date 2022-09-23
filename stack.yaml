@@ -8,7 +8,6 @@ compatibility: # Put a list of technologies compatible with the stack
   - barbara
 technologies: # Ref: https://docs.stackspot.com/latest/docs/creators-guide/yaml/#technologies
   - Python!
-  - barbara
 about: docs/about.md
 use-cases:
   - title: Criar uma CLI personalizada em Python 
