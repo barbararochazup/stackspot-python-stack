@@ -6,8 +6,7 @@ category: Backend # Ref: https://docs.stackspot.com/latest/docs/creators-guide/y
 compatibility: # Put a list of technologies compatible with the stack
   - Python
   - barbara
-technologies: # Ref: https://docs.stackspot.com/latest/docs/creators-guide/yaml/#technologies
-  - Apii
+technologies: Apii
 about: docs/about.md
 use-cases:
   - title: Criar uma CLI personalizada em Python 
