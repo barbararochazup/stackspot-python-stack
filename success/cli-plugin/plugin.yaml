@@ -1,0 +1,38 @@
+name: cli-plugin
+description: Adds the capability of a CLI to the python-app-template
+display-name: cli-plugin
+picture: https://avatars.githubusercontent.com/u/13245136?s=200&v=4
+category: Backend # Ref: https://docs.stackspot.com/latest/docs/creators-guide/yaml/#category
+compatibility:
+  - Python
+about: docs/about.md
+usage: docs/usage.md
+use-case: docs/use-case.md
+implementation: docs/implementation.md
+technologies:
+  - "Python"
+types:
+  - app
+inputs:
+  - label: CLI Command Name
+    type: text
+    name: cli_command_name
+    default: mycli
+global-computed-inputs:
+  cli_command_name_lower: "{{inputs.cli_command_name|lower}}"
+hooks:
+  - type: edit
+    trigger: before-render
+    path: "src/pyproject.toml"
+    changes:
+      - insert:
+          line: -1
+          snippet: "snippets/poetryscripts"
+          when:
+            not-exists: "{{cli_command_name_lower}} = '{{project_name_sanitized}}.cli:main'"
+      - search:
+          string: "[tool.poetry.dependencies]"
+          replace-by:
+            snippet: "snippets/clickdependency"
+          when:
+            not-exists: "click"
