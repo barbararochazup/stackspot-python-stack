@@ -1,3 +1,0 @@
-
-[tool.poetry.scripts]
-{{cli_command_name_lower}} = "{{project_name_sanitized}}.cli:main"

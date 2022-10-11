@@ -1,2 +1,0 @@
-[tool.poetry.dependencies]
-uvicorn = "^0.17.6"
