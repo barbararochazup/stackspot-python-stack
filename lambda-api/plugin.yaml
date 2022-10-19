@@ -11,8 +11,6 @@ use-case: docs/use-case.md
 implementation: docs/implementation.md
 technologies: # Ref: https://docs.stackspot.com/latest/docs/creators-guide/yaml/#technologies
   - "Api"
-  - "Lambda"
-  - "Serverless"
 types:
   - app
 hooks:
