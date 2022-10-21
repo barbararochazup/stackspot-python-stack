@@ -14,4 +14,4 @@ A Stack de Python foi desenvolvida utilizando as melhores práticas de desenvolv
 - Desenvolvimento orientado a testes (TDD).
 - Arquitetura limpa (Clean Architecture).
 - Componentes desacoplados.
-- Novos comandos que podem ser adicionados rapidamente. 
+- Novos comandos que podem ser adicionados rapidamente.

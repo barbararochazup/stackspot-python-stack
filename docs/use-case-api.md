@@ -11,3 +11,10 @@ Você pode criar um projeto Python básico com esse template para desenvolver se
 #### **Como customizar?** 
 
 Os Plugins disponíveis nessa Stack foram feitos para facilitar o desenvolvimento de APIs de Lambda e implementá-las. 
+
+
+![](../images/andressa.png)
+
+![](image/andressa.png)
+
+![](andressa.png)
