@@ -16,6 +16,6 @@ A Stack de Python foi desenvolvida utilizando as melhores práticas de desenvolv
 - Componentes desacoplados.
 - Novos comandos que podem ser adicionados rapidamente.
 
-![](../images/amanda.png)
+![](../images/joao.png)
 
-![](gabriel.png)
+![](andressa.png)
