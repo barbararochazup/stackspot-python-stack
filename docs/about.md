@@ -15,3 +15,7 @@ A Stack de Python foi desenvolvida utilizando as melhores práticas de desenvolv
 - Arquitetura limpa (Clean Architecture).
 - Componentes desacoplados.
 - Novos comandos que podem ser adicionados rapidamente.
+
+![](../images/amanda.png)
+
+![](gabriel.png)
