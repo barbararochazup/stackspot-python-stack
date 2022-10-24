@@ -1,8 +1,6 @@
 ## **Casos de Uso**
 
 
-![](../images/andressa.png)
+![](../images/amanda.png)
 
-![](image/andressa.png)
-
-![](andressa.png)
+![](gabriel.png)
