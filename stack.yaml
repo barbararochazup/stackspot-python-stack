@@ -6,7 +6,7 @@ category: Backend # Ref: https://docs.stackspot.com/latest/docs/creators-guide/y
 compatibility: # Put a list of technologies compatible with the stack
   - Python
   - barbara
-technology: # Put a list of technologies compatible with the stack
+technologies: # Put a list of technologies compatible with the stack
   - Api
   - Redis
   - PostgreSql
